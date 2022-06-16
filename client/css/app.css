@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  
+  /* background-color: #7F7C82; */
+  /* background-color: #2B2B2B; */
+}
+
+.header {
+  margin-top: 15px;
+}
+
+hr {
+  width: 95%;
+  height: 2px;
+  background-color: lightgrey;
+  margin-top: 5px;
+}
+
+.game-option {
+  width: 320px;
+  height: 100px;
+  /* background-color: blue; */
+  border-radius: 5px;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.game-option .title {
+  /* width: 150px;
+  height: 50px; */
+  background-color: rgba(212, 196, 196, 0.027);
+  border: solid 1px rgba(0, 0, 0, 0.281);
+  border-radius: 2.5px;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.game-option h3 {
+  font-size: 28px;
+  text-align: center;
+  padding: 15px;
+}
+
+
+
+.purple-blue-gradient {
+  background-image: linear-gradient(to right, #8e9eab, #136a8a);
+} 
+
+.green-black-gradient {
+  background-image: linear-gradient(to right, #00bf8f, #001510bd);
+}
+
+.pink-darkpink-gradient {
+  background-image: linear-gradient(to right, #ff0084, #33001bb2);
+} 
+
+
+
+.component {
+  width: 100%;
+  min-height: 100vh;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.game {
+  width: 100%;
+  height: 100vh;
+}
+
+.crash-game {
+  background-color: blue;
+}
+
+.blackjack-game {
+  background-color: red;
+}
+
+.roulette-game {
+  background-color: black;
+}
+
+
+
+
+
+.hide {
+  display: none;
+}

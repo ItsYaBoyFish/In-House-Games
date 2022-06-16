@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Graves Casino</title>
+  <script src="../js/socket.io.js"></script>
+  <link rel="stylesheet" href="../css/app.css">
+</head>
+<body>
+  <!-- <h1 class="header">Select A Game</h1> -->
+  <!-- <hr> -->
+  <div class="component" id="gameSelection">
+    <br>
+    <br>
+    <div class="game-option purple-blue-gradient" onclick="gameSelected('blackjack')">
+      <div class="title">
+        <h3>Blackjack</h3>
+      </div>
+    </div> <!-- Blackjack -->
+    <div class="game-option green-black-gradient" onclick="gameSelected('crash')">
+      <div class="title">
+        <h3>Crash</h3>
+      </div>
+    </div> <!-- Crash -->
+    <div class="game-option pink-darkpink-gradient " onclick="gameSelected('roulette')">
+      <div class="title">
+        <h3>Roulette</h3>
+      </div>
+    </div> <!-- Roulette -->
+  </div> <!-- COMPONENT: Game Selection -->
+
+
+  <div class="component hide" id="blackjack">
+    <div class="game blackjack-game"></div>
+  </div> <!-- COMPONENT: Blackjack Game -->
+
+  <div class="component hide" id="crash">
+    <div class="game crash-game">
+      Crash
+    </div>
+  </div> <!-- COMPONENT: Crash Game -->
+
+  <div class="component hide" id="roulette">
+    <div class="game roulette-game"></div>
+  </div> <!-- COMPONENT: Roulette Game -->
+
+  <script src="../js/app.js"></script>
+</body>
+</html>
